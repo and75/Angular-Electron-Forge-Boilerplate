@@ -1,27 +1,68 @@
-# ElectronAeApp
+# Angular Electron Forge Boilerplate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+![Angular](https://img.shields.io/badge/Angular-13-red?style=flat&logo=angular) ![Electron](https://img.shields.io/badge/Electron-25-blue?style=flat&logo=electron)
 
-## Development server
+A boilerplate to quickly start an **Electron** project with **Angular**, using **Electron Forge** for packaging and distribution management.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ✨ Features
 
-## Code scaffolding
+- **Angular 13** integrated with **Electron 25**
+- **Electron Forge** for simplified project management
+- **TypeScript support** for both Angular and Electron
+- **Optimized build** for production
+- **Hot reload** for development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Installation and Start
 
-## Build
+### 1. Clone the repository
+```sh
+git clone https://github.com/and75/angular-electron-forge-boilerplate.git
+cd angular-electron-forge-boilerplate
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 2. Install dependencies
+```sh
+npm install
+```
 
-## Running unit tests
+### 3. Start in development mode
+```sh
+npm start
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The application will launch with **hot reload** enabled.
 
-## Running end-to-end tests
+### 4. Build for distribution
+```sh
+npm run make
+```
+The generated files will be found in the `out/` folder.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📁 Project Structure
+```
+angular-electron-forge-boilerplate/
+├── src/
+│   ├── app/          # Angular code
+│   ├── assets/       # Static assets
+│   ├── environments/ # Environment configurations
+│   ├── main.ts       # Angular entry point
+│
+├── electron/
+│   ├── main.ts       # Electron main process
+│   ├── preload.ts    # Preload script for security
+│
+├── package.json      # Project configuration
+├── forge.config.js   # Electron Forge configuration
+```
 
-## Further help
+## 🔐 Security
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project follows **Electron Security Guidelines**, limiting Node.js usage in the renderer process through a **preload script**.
+
+## 📜 License
+
+Distributed under the **MIT** license.
+
+---
+🔗 **GitHub Repository**: [Angular Electron Forge Boilerplate](https://github.com/and75/angular-electron-forge-boilerplate)
+
