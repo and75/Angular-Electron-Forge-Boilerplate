@@ -4,6 +4,9 @@
 
 A boilerplate to quickly start an **Electron** project with **Angular**, using **Electron Forge** for packaging and distribution management.
 
+![image](https://github.com/user-attachments/assets/c8fda3ac-8889-4a9d-9073-d2186208bae1)
+
+
 ## ✨ Features
 
 - **Angular 13** integrated with **Electron 25**
