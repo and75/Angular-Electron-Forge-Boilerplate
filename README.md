@@ -2,7 +2,10 @@
 
 &#x20;&#x20;
 
+![Angular](https://img.shields.io/badge/Angular-13-red?style=flat&logo=angular) ![Electron](https://img.shields.io/badge/Electron-25-blue?style=flat&logo=electron)
+
 A powerful boilerplate to kickstart your **Electron** project with **Angular**, featuring **Electron Forge** for effortless packaging and distribution.
+
 
 ## 🌟 Features
 
